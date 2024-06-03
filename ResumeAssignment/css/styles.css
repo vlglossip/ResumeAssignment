@@ -1,0 +1,81 @@
+/* RESUME PAGE ----------------------------------------------------------------------------------------------------------------------------------------------- */
+
+body {
+    background-color: #FAF9F6;
+    color: #026B79;
+}
+
+img {
+    width: 400px;
+    height: 200px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+/* LINKS ----------------------------------------------------------------------------------------------------------------------------------------------------*/
+a {
+    color: #03A0B5;
+}
+
+a:hover {
+    color: #03C4DD;
+    
+}
+
+/* ABOUT -----------------------------------------------------------------------------------------------------------------------------------------------------*/
+header {
+    text-align: center;
+}
+
+header p {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+/* PROJECTS --------------------------------------------------------------------------------------------------------------------------------------------------*/
+.divider {
+    width: 1500px;
+    height: 300px;
+    background-image: url("../images/background-computer1.jpg"); /* Image from Arnel Hasanovic on Unsplash*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+}
+
+.pgrid-item {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+/* WORK EXPERIENCE -------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* EDUCATION -------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* FOOTER ----------------------------------------------------------------------------------------------------------------------------------------------------*/
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer h2 {
+    text-align: left;
+}
